@@ -1,0 +1,57 @@
+
+ jMemorize README
+ ----------------
+ 
+    The jMemorize Homepage can be found at http://jmemorize.org
+ 
+ 1. About
+
+	jMemorize is written in Java and uses Leitner-flashcards to make 
+	memorizing facts not only more efficient but also more fun. 
+	jMemorize manages your learn progress and features categories, 
+	statistics and a visually appealing and intuitive interface.
+
+ 2. How to run
+    
+    Currently you need Java 1.5 to run jMemorize. Just (double-)click 
+    the icon to start the application or type 
+    'javaw -jar jMemorize-1.3.0.jar' from command line.
+    
+    You can get the most current offical Sun Java Runtime Environment 
+    from http://java.com
+   
+ 3. Creator
+  
+    This software is developed by Riad Djemili (jmemorize@riad.de) and
+    licensed under the GPL license. A copy of the GPL license is 
+    provided with this sourcecode.
+    
+    A lot of people have contributed ideas and patches. Special thanks go to:
+    - Bret Harsham (patches)
+    - Adam Ehlers Nyholm Thomsen (patches)
+    - Magnus Hildebrandt (Icons)
+    
+    My thanks also goes to the various translators:
+    - Lukas Rypl
+    - Adam Ehlers Nyholm Thomsen
+    - Kristjan Schmidt
+    - MILLE.ca
+    - Randy Sugianto
+    - Filip Tack
+    - Tomek Pedzimaz
+    - Radek Ostrowski
+    - Ney
+    - Magnus Bodin
+    - Ali Baser
+    - Mert Nuhoglu
+    - Tianyi Cui
+    - Haakon Meland Eriksen
+    - Sander van Rijnswou
+    - Eberhard Herzog
+    - René Maya
+    
+    I'm using icons from the Eclipse project (http://eclipse.org) and from 
+    Mark James's excellent Silk icon set (http://famfamfam.com/lab/icons/silk).
+    
+  Have fun.
+  

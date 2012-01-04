@@ -1,0 +1,333 @@
+#
+# This is a translation file for jMemorize (http://www.riad.de/jmemorize)
+#
+# ------------------------------------------------------------------------------
+# Author:             Filip Tack <ftack@yahoo.com>
+#                     Sander van Rijnswou <svanrijnswou@gmail.com>
+# Language:           Dutch (nl)
+# jMemorize-Version:  1.2.3
+# ------------------------------------------------------------------------------
+#
+# Notes:
+#   DESC is the text that will show up as tooltip.
+#   TITLE is the title of the new window / dialog.
+
+# general
+
+General.CATEGORY          = Categorie
+General.CREATED           = Gemaakt
+General.MODIFIED          = Gewijzigd
+General.EXPIRES           = Vervalt
+General.LAST_TEST         = Laatste Test
+General.DECK              = Stapel
+General.DECKS             = Stapels
+General.FRONTSIDE         = Voorkant
+General.FLIPSIDE          = Achterkant
+General.OKAY              = OK
+General.APPLY             = Toepassen
+General.CANCEL            = Annuleren
+General.ROOT_CATEGORY     = Alle
+General.GENERAL           = Algemeen
+General.PASSED            = Geleerd
+General.UNLEARNED         = Niet geleerd
+General.EXPIRED           = Vervallen
+
+General.EMPTY_SIDES_ALERT       = Je moet beide kaartzijden invullen
+General.EMPTY_SIDES_ALERT_TITLE = Slechte kaartzijden
+
+# main frame
+
+MainFrame.ABOUT              = Over
+MainFrame.ABOUT_DESC         = Over deze toepassing
+
+MainFrame.ADD_CARD           = Voeg kaart toe
+MainFrame.ADD_CARD_DESC      = Voeg een nieuwe kaart toe
+
+MainFrame.ADD_CATEGORY       = Voeg categorie toe
+MainFrame.ADD_CATEGORY_DESC  = Voeg een nieuwe categorie toe
+MainFrame.ADD_CATEGORY_INPUT = Geef de naam van de nieuwe categorie die je wilt maken.
+
+MainFrame.CATEGORY_TREE      = Categorieënlijst
+MainFrame.CATEGORY_TREE_DESC = Toon/verberg de categorieënlijst
+
+MainFrame.COPY               = Kopieer
+MainFrame.CUT                = Knip
+MainFrame.PASTE              = Plak
+MainFrame.DELETE             = Wis
+
+MainFrame.DELETE_CARDS_WARN       = Je staat op het punt {0} kaart(en) te wissen! Wil je hiermee echt doorgaan?
+MainFrame.DELETE_CARDS_WARN_TITLE = Wissen van kaart
+
+MainFrame.DELETE_CATEGORY_WARN  = Door categorie {0} te wissen zal je {1} kaarten wissen. Wil je hiermee echt doorgaan?
+
+MainFrame.EDIT_CARD             = Wijzig kaart
+MainFrame.EDIT_CARD_DESC        = Bekijk en wijzig de kaart
+
+MainFrame.ERROR_TITLE           = Fout
+MainFrame.ERROR_LOAD            = Er was een fout bij het laden van bestand {0}.
+MainFrame.ERROR_SAVE            = Er was een fout bij het bewaren van bestand {0}. De les werd niet bewaard.
+
+MainFrame.EXIT                  = Einde
+MainFrame.EXIT_DESC             = Verlaat deze toepassing.
+
+MainFrame.FILE_FILTER_DESC      = jMemorize Lessen
+MainFrame.PDF_FILE_FILTER_DESC	= PDF - Portable Document Format (.pdf)
+
+MainFrame.FIND                  = Zoek
+MainFrame.FIND_DESC             = Zoek kaarten
+
+MainFrame.LEARN                 = Leer
+MainFrame.LEARN_DESC            = Leer een sessie met alle niet geleerde en vervallen kaarten
+
+MainFrame.MENU_FILE             = Bestand
+MainFrame.MENU_EDIT             = Wijzig
+MainFrame.MENU_HELP             = Help
+MainFrame.MENU_LESSON           = Les
+
+MainFrame.NEW                   = Nieuw
+MainFrame.NEW_DESC              = Maak een nieuwe les
+
+MainFrame.UNNAMED_LESSON        = Nieuwe les
+
+MainFrame.OPEN                  = Open
+MainFrame.OPEN_DESC             = Open lesbestand
+
+MainFrame.REMOVE_CATEGORY_TITLE = Wissen van categorie
+MainFrame.REMOVE_DESC           = Wis de geselecteerde categorieën
+
+MainFrame.RESET                 = Reset kaart
+MainFrame.RESET_DESC            = Zet de statistieken van de geselecteerde kaarten terug op 0
+MainFrame.RESET_WARN            = Je staat op het punt {0} kaart(en) te resetten. Wil je hiermee echt doorgaan?
+
+MainFrame.SAVE                  = Bewaar
+MainFrame.SAVE_DESC             = Bewaar les
+MainFrame.SAVE_AS               = Bewaar als..
+MainFrame.SAVE_AS_DESC          = Bewaar les als..
+MainFrame.SAVE_MODIFIED         = Deze les werd gewijzigd. Wil je ze bewaren voor je dit programma verlaat?
+
+MainFrame.IMPORT                = Invoeren
+
+MainFrame.EXPORT                = Uitvoeren
+MainFrame.EXPORT_PDF            = Portable Document Format (*.pdf)
+MainFrame.EXPORT_RTF            = Rich Text Format (*.rtf)
+MainFrame.EXPORT_PDF_DESC       = Uitvoeren als *.pdf
+MainFrame.EXPORT_RTF_DESC       = Uitvoeren als *.rtf
+MainFrame.EXPORT_CLEAN          = Les zonder persoonlijke data
+
+MainFrame.PREFERENCES           = Voorkeuren
+MainFrame.PREFERENCES_DESC      = Stel je voorkeuren in
+
+MainFrame.CONFIRM_OVERWRITE_TITLE = Bestand overschrijven?
+MainFrame.CONFIRM_OVERWRITE     = Bestand bestaat al. Wil je het overschrijven?
+
+MainFrame.SELECT_CHARACTER_SET  = Kies de tekenset codering van het bestand
+MainFrame.CHARACTER_SET         = Tekenset
+
+# files
+
+File.CSV                     = Comma Separated Values (*.csv)
+File.TSV                     = Tabular Separated Values (*.tsv)
+
+# web sites
+
+URL.HOMEPAGE                 = Homepage
+URL.MANUAL                   = Gebruikershandleiding
+URL.FEATURE_TRACKER          = Feature tracker
+URL.BUG_TRACKER              = Bug tracker
+
+# preferences
+
+Preferences.USE_GZIP            = Comprimeer lessen in GZIP formaat.
+Preferences.LANGUAGE            = Taal
+Preferences.RESTART             = Je nieuwe taalselectie zal actief zijn volgende keer wanneer je dit programma opstart.
+
+Preferences.FONT_SETTINGS       = Instellingen lettertype
+Preferences.FONT                = Lettertype
+Preferences.SIZE                = Grootte
+Preferences.PREVIEW             = Voorbeeld
+
+# card table
+
+CardTable.COLUMNS               = Kolommen
+CardTable.NO_DATE_DESC          = Deze kaart werd nooit getest.
+CardTable.NOT_LEARNED           = niet geleerd
+CardTable.PATH                  = Pad
+CardTable.SELECTED_CARDS        = Geselecteerde kaarten
+
+# deck chart
+
+DeckChart.CARDS              = Kaarten
+DeckChart.START_DECK         = Start Stapel
+DeckChart.SUMMARY            = Samenvatting
+DeckChart.EXPIRED_CARDS      = Vervallen Kaarten
+DeckChart.LEARNED_CARDS      = Geleerde Kaarten
+DeckChart.UNLEARNED_CARDS    = Niet geleerde Kaarten
+
+Summary.LEARNED              = Geleerd
+Summary.FAILED               = Fout
+Summary.RELEARNED            = Opnieuw geleerd
+Summary.SKIPPED              = Overgeslagen
+
+# deck table
+
+DeckTable.NEXT_DECK          = Volgende stapel
+DeckTable.NEXT_DECK_DESC     = Toon volgende stapel.
+DeckTable.PREV_DECK          = Vorige stapel
+DeckTable.PREV_DECK_DESC     = Toon vorige stapel.
+
+# card editting
+
+EditCard.DETAILS_RATIO       = Aandeel correct
+EditCard.DETAILS_HISTORY     = Leergeschiedenis
+
+EditCard.MODIFIED_WARN       = De kaart werd gewijzigd. Wil je de wijziging toepassen voor je verder gaat?
+EditCard.MODIFIED_WARN_TITLE = De kaart werd gewijzigd.
+
+EditCard.NEXT_CARD         = Volgende kaart
+EditCard.NEXT_CARD_DESC    = Toon volgende kaart
+
+EditCard.PREV_CARD         = Vorige kaart
+EditCard.PREV_CARD_DESC    = Toon vorige kaart
+
+EditCard.REMOVE_CARD       = Verwijder kaart
+EditCard.REMOVE_CARD_DESC  = Verwijder de geselecteerde kaart
+
+EditCard.REMOVE_CARD_WARN  = Ben je zeker dat je deze kaart wil verwijderen?
+EditCard.REMOVE_CARD_WARN_TITLE = Verwijderen kaart
+
+EditCard.RESET_CARD        = Reset kaart
+EditCard.RESET_CARD_DESC   = Reset de geselecteerde kaart
+EditCard.RESET_CARD_WARN   = Door deze kaart te resetten komt ze terug op de eerste stapel.\nBen je zeker?
+
+EditCard.TAB_SIDES         = Zijden
+EditCard.TAB_PROPERTIES    = Eigenschappen
+
+# find tool
+
+FindTool.FIND          = Zoek
+FindTool.BOTH_SIDES    = Beide zijden
+FindTool.MATCH_CASE    = Zelfde hoofdletter/kleine letter
+FindTool.RESULTS       = Resultaten
+FindTool.SEARCH_TEXT   = Zoek tekst
+FindTool.SETTINGS      = Instellingen
+
+# learn
+
+
+Learn.REMEMBER_THE_ANSWER    = Probeer het antwoord te onthouden
+Learn.DID_YOU_KNOW_ANSWER    = Wist je het juiste antwoord?
+Learn.YES                    = Ja
+Learn.NO                     = Neen
+
+Learn.CARD_COUNTER           = Kaartteller
+Learn.FLIPPED_CARD_SIDES     = Omgedraaide kaarten
+Learn.SHOW_ANSWER            = Toon antwoord
+Learn.SHOW_CATEGORY          = Toon categorie
+Learn.SKIP_CARD              = Sla kaart over
+Learn.STOP                   = Stop met leren
+Learn.TIMER                  = Timer
+
+Learn.SESSION_RESULTS        = Sessie resultaten
+Learn.CARD_PROGRESS          = Kaarten voortgang
+Learn.SESSION_PROGRESS       = Sessie voortgang
+
+# learn settings
+
+LearnSettings.ADVANCED          = Geavanceerd
+LearnSettings.SCHEDULING        = Tijdschema
+
+LearnSettings.CARDS_TO_LEARN    = Te leren kaarten
+LearnSettings.LEARN_UNLEARNED_EXPIRED = Leer alle nog niet geleerde en vervallen kaarten.
+LearnSettings.LEARN_UNLEARNED   = Leer enkel nog niet geleerde kaarten.
+LearnSettings.LEARN_EXPIRED     = Leer alleen vervallen kaarten.
+
+LearnSettings.CARDS_ORDER       = Volgorde van de kaarten
+LearnSettings.SHUFFLE_CARDS     = Meng kaarten uit alle stapels en alle categorieën.
+LearnSettings.GROUP_CARDS       = Groepeer kaarten per categorie tijdens het leren.
+LearnSettings.NATURAL_CATEGORY_ORDER = Toon categorieën in vaste natuurlijke volgorde.
+LearnSettings.RANDOM_CATEGORY_ORDER = Toon categorieën in willekeurige volgorde.
+
+LearnSettings.DELIMITERS          = Begrenzingen
+LearnSettings.CARD_LIMIT          = Limiet in aantal kaarten
+LearnSettings.CARD_LIMIT_TEXT     = Beëindig de sessie na een zekere aantal kaarten.
+LearnSettings.TIME_LIMIT          = Tijdslimiet (minuten)
+LearnSettings.TIME_LIMIT_TEXT     = Beëindig de sessie na een zekere tijd.
+LearnSettings.DONT_RETEST_FAILED  = Test kaarten die fout werden beantwoord niet opnieuw gedurende deze sessie.
+
+LearnSettings.SCHEDULE_PRESETS    = Tijdschema Voor-instellingen
+LearnSettings.DELAY_AFTER_LEVEL   = Tijd na niveau {0}
+LearnSettings.DAYS                = Dagen
+LearnSettings.HOURS               = Uren
+LearnSettings.MINUTES             = Minuten
+
+LearnSettings.SIDE_MODE           = Kant van de kaart	
+LearnSettings.NORMAL_MODE         = Leer in normale modus.
+LearnSettings.FLIP_MODE           = Leer met achterkant van de kaart.
+LearnSettings.RANDOM_MODE         = Leer met kaarten willekeurig op de voorkant of op de achterkant.
+LearnSettings.BOTH_MODE           = Leer elke kaart zo vaak als aangegeven.
+
+
+LearnSettings.START         = Start Sessie\!
+LearnSettings.TITLE         = Leerinstellingen
+
+# new card
+
+NewCard.ADD                 = Toevoegen
+NewCard.ADD_AND_NEXT        = Voeg toe en maak de volgende
+
+NewCard.EDIT_RECENTLY       = Wijzig recent
+NewCard.EDIT_RECENTLY_DESC  = Wijzig recent gemaakte kaart
+
+NewCard.NEW_WINDOW          = Nieuw venster
+NewCard.NEW_WINDOW_DESC     = Open een nieuw maak kaart venster
+
+NewCard.TITLE               = Maak kaart
+
+NewCard.CLOSE_WARN          = Waarschuwing
+NewCardManager.DISMISSED_WARN = Je staat op het punt de gegevens van de kaart weg te gooien.\nWil je de kaart aanmaken voor het venster gesloten wordt?
+
+# status bar
+
+StatusBar.CARDS             = Kaarten
+StatusBar.EXPIRED           = Vervallen
+StatusBar.LEARNED           = Geleerd
+StatusBar.UNLEARNED         = Niet geleerd
+StatusBar.PARTIAL           = Gedeeltelijk geleerd
+
+StatusBar.LEARNING_CATEGORY = Leercategorie
+StatusBar.CARDS_LEFT        = Overblijvende kaarten
+
+# strategy
+
+Strategy.LINEAR_DEFAULT_SCHEDULE  = Lineair (Standaard)
+Strategy.CONSTANT_SCHEDULE        = Constant
+Strategy.EXPONENTIAL_SCHEDULE     = Exponentieel
+Strategy.QUADRATIC_SCHEDULE       = Kwadratisch
+Strategy.CRAM_SCHEDULE            = Stampen
+Strategy.CUSTOM_SCHEDULE          = Aangepast
+
+# time related
+
+Time.DAYS               = dagen
+Time.ONE_DAY            = één dag
+Time.HOURS              = uren
+Time.ONE_HOUR           = één uur
+Time.MINUTES            = minuten
+Time.ONE_MINUTE         = één minuut
+Time.SECONDS            = seconden
+
+Time.PASSED             = voorbij
+
+Time.IN                 = binnen {0}
+Time.AGO                = {0} geleden
+
+# learn history
+
+History.TITLE = Geschiedenis
+History.ACTION = Toon geschiedenis
+History.RECENT = Recente Sessies
+History.BY_DATE = Sessies per datum
+History.BY_WEEK = Sessies per week
+History.BY_MONTH = Sessies per maand
+History.BY_YEAR = Sessies per jaar
+History.SESSION_DURATION = Sessie lengte

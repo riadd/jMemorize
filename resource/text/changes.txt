@@ -1,0 +1,73 @@
+
+ This file lists all changes to the translation keys in the version of 
+ jMemorize.
+
+ : Version 1.4.0 (!?)
+ 
+     + MainFrame.RENAME
+     + MainFrame.RENAME_INPUT
+ 
+ : Version 1.3.0
+ 
+     + General.IMAGE
+     + LearnSettings.LEARN_SELECTED
+     + LearnSettings.SHUFFLE_RATIO
+     + LearnSettings.FIXED_EXPIRATION_TIME
+     + Preferences.ALIGNMENT
+     + Preferences.VERT_ALIGN
+     + Preferences.ALIGN_LEFT
+     + Preferences.ALIGN_CENTER
+     + Preferences.ALIGN_RIGHT
+     + SessionChart.THIS_SESSION
+     + SessionChart.AVERAGE_SESSION
+
+ : Version 1.2.3
+ 
+     + History.ACTION
+     + History.TITLE
+     + General.UNLEARNED
+     + General.EXPIRED
+ 
+ : Version 1.2.0
+ 
+     + General.MODIFIED
+     + StatusBar.PARTIAL
+     + Learn.CARD_PROGRESS
+     + Learn.SESSION_PROGRESS
+     + History.RECENT
+     + History.BY_DATE
+	 + History.BY_WEEK
+     + History.BY_MONTH
+	 + History.BY_YEAR
+	 + History.DURATION
+ 
+ : Version 1.1.0
+ 
+     + Learn.SESSION_RESULTS
+     + URL.HOMEPAGE
+     + URL.MANUAL
+     + URL.FEATURE_TRACKER
+     + URL.BUG_TRACKER
+     + MainFrame.SELECT_CHARACTER_SET
+     + MainFrame.CHARACTER_SET
+     + Summary.LEARNED
+     + Summary.FAILED
+     + Summary.RELEARNED
+     + Summary.SKIPPED
+ 
+ : Version 1.0rc2
+ 
+     + MainFrame.CONFIRM_OVERWRITE_TITLE
+     + MainFrame.CONFIRM_OVERWRITE
+     + Strategy.CRAM_SCHEDULE
+     + MainFrame.IMPORT
+     + File.CSV
+     + File.TSV
+     ~ MainFrame.EXPORT (text changed from "Export from..." to "Export")
+     - MainFrame.EXPORT_DESC
+ 
+ : Version 1.0rc1
+ 
+     + MainFrame.EXPORT_CLEAN
+     + LearnSettings.BOTH_MODE
+  

@@ -1,0 +1,332 @@
+#
+# This is a translation file for jMemorize (http://www.riad.de/jmemorize)
+#
+# ------------------------------------------------------------------------------
+# Author:             Magnus Bodin <magnus@bodin.org>
+# Language:           Swedish (sv)
+# jMemorize-Version:  1.2.3
+# ------------------------------------------------------------------------------
+#
+# Notes:
+#   DESC is the text that will show up as tooltip.
+#   TITLE is the title of the new window / dialog.
+
+# general
+		
+General.CATEGORY          = Kategori
+General.CREATED           = Skapad
+General.MODIFIED          = Modifierad
+General.EXPIRES           = Går ut
+General.LAST_TEST       = Senaste test
+General.DECK              = Hög
+General.DECKS             = Högar
+General.FRONTSIDE         = Framsida
+General.FLIPSIDE          = Baksida
+General.OKAY              = OK
+General.APPLY             = Ändra
+General.CANCEL            = Avbryt
+General.ROOT_CATEGORY     = Alla
+General.GENERAL           = Generellt
+General.PASSED            = Avklarade
+General.UNLEARNED 		  = Ej inlärda
+General.EXPIRED           = Utgågna
+
+General.EMPTY_SIDES_ALERT       = Du måste skriva något på bägge sidor.
+General.EMPTY_SIDES_ALERT_TITLE = Kortsidor ej utfyllda
+
+# main frame
+
+MainFrame.ABOUT              = Om
+MainFrame.ABOUT_DESC         = Om detta program
+
+MainFrame.ADD_CARD           = Lägg till kort
+MainFrame.ADD_CARD_DESC      = Lägg till nytt kort
+
+MainFrame.ADD_CATEGORY       = Lägg till kategori
+MainFrame.ADD_CATEGORY_DESC  = Lägg till ny kategori
+MainFrame.ADD_CATEGORY_INPUT = Skriv namnet på den nya kategori du vill skapa.
+
+MainFrame.CATEGORY_TREE      = Kategoriträd
+MainFrame.CATEGORY_TREE_DESC = Visa/Göm kategoriträdet
+
+MainFrame.COPY               = Kopiera
+MainFrame.CUT                =  Klipp ut
+MainFrame.PASTE              = Klistra in
+MainFrame.DELETE             = Radera
+
+MainFrame.DELETE_CARDS_WARN       = Du kommer nu att radera {0} kort. Vill du fortsätta?
+MainFrame.DELETE_CARDS_WARN_TITLE = Radera kort
+
+MainFrame.DELETE_CATEGORY_WARN  = Om du raderar katergori {0} kommer {1} kort också raderas. Vill du fortsätta?
+
+MainFrame.EDIT_CARD             = Redigera kort
+MainFrame.EDIT_CARD_DESC        = Visa och redigera kort
+
+MainFrame.ERROR_TITLE           = Fel
+MainFrame.ERROR_LOAD            = Det uppstod ett fel när filen skulle öppnas: {0}.
+MainFrame.ERROR_SAVE            = Det uppstod ett fel när filen {0} skulle sparas. Lektionen har inte sparats.
+
+MainFrame.EXIT                  = Avsluta
+MainFrame.EXIT_DESC             = Avsluta programmet
+
+MainFrame.FILE_FILTER_DESC      = jMemorize-lektioner
+MainFrame.PDF_FILE_FILTER_DESC	= PDF - Portable Document Format (.pdf)
+
+MainFrame.FIND                  = Sök
+MainFrame.FIND_DESC             = Sök efter kort
+
+MainFrame.LEARN                 = Lär
+MainFrame.LEARN_DESC            = Börja inlärning med alla nya och utgågna kort
+
+MainFrame.MENU_FILE             = Fil
+MainFrame.MENU_EDIT             = Redigera
+MainFrame.MENU_HELP             = Hjälp
+MainFrame.MENU_LESSON           = Lektion
+
+MainFrame.NEW                   = Ny
+MainFrame.NEW_DESC           = Skapa tom lektion
+
+MainFrame.UNNAMED_LESSON        = Ny lektion
+
+MainFrame.OPEN                  = Öppna
+MainFrame.OPEN_DESC             = Öppna lektionsfil
+
+MainFrame.REMOVE_CATEGORY_TITLE = Radera kategori
+MainFrame.REMOVE_DESC           = Radera markerade kategorier
+
+MainFrame.RESET                 = Återställ kort
+MainFrame.RESET_DESC            = Återställ kortets räknare
+MainFrame.RESET_WARN            = Du kommer nu att återställa {0} kort. Vill du fortsätta?
+MainFrame.RESET_TITLE       = Återställning av kort
+
+MainFrame.SAVE                  = Spara
+MainFrame.SAVE_DESC             = Spara lektion
+MainFrame.SAVE_AS               = Spara som...
+MainFrame.SAVE_AS_DESC          = Spara lektion som...
+MainFrame.SAVE_MODIFIED         = Lektionen är ändrad. Vill du spara innan du avslutar?
+
+MainFrame.IMPORT                = Importera
+
+MainFrame.EXPORT                = Exportera
+MainFrame.EXPORT_PDF            = Portable Document Format (*.pdf)
+MainFrame.EXPORT_RTF            = Rich Text Format (*.rtf)
+MainFrame.EXPORT_PDF_DESC       = Exportera till *.pdf
+MainFrame.EXPORT_RTF_DESC       = Exportera till *.rtf
+MainFrame.EXPORT_CLEAN          = Lektion utan personlig inlärningsinformation
+
+MainFrame.PREFERENCES           = Inställningar
+MainFrame.PREFERENCES_DESC      = Ändra dina inställningar
+
+MainFrame.CONFIRM_OVERWRITE_TITLE = Skriva över fil?
+MainFrame.CONFIRM_OVERWRITE = Filen existerar redan. Vill du ersätta den?
+
+MainFrame.SELECT_CHARACTER_SET  = Välj filens teckensätt
+MainFrame.CHARACTER_SET         = Teckensätt
+
+# files
+
+File.CSV                     = Kommaseparerade fält (*.csv)
+File.TSV                     = Tabbseparerade fält (*.tsv)
+
+# web sites
+
+URL.HOMEPAGE                 = Hemsida
+URL.MANUAL                   = Användarhandledning
+URL.FEATURE_TRACKER          = Feature-lista
+URL.BUG_TRACKER              = Bugg-lista
+
+# preferences
+
+Preferences.USE_GZIP            = Komprimera lektionerna i GZIP-format.
+Preferences.LANGUAGE            = Språk
+Preferences.RESTART             = Ditt nya språkval kommer att träda i kraft nästa gång du startar programmet.
+
+Preferences.FONT_SETTINGS       = Teckensnitt-inställningar
+Preferences.FONT                = Teckensnitt
+Preferences.SIZE                = Storlek
+Preferences.PREVIEW             = Förhandsvisning
+
+# card table
+
+CardTable.COLUMNS               = Kolumner
+CardTable.NO_DATE_DESC          = Detta kortet har inte testats.
+CardTable.NOT_LEARNED           = Ej inlärt
+CardTable.PATH                  = Sökväg
+CardTable.SELECTED_CARDS        = Valda kort
+
+# deck chart
+
+DeckChart.CARDS              = Kort
+DeckChart.START_DECK         = Starthög
+DeckChart.SUMMARY            = Översikt
+DeckChart.EXPIRED_CARDS      = Utgångna kort
+DeckChart.LEARNED_CARDS      = Inlärda kort
+DeckChart.UNLEARNED_CARDS    = Ej inlärda kort
+
+Summary.LEARNED              = Inlärda
+Summary.FAILED               = Missade
+Summary.RELEARNED            = Återinlärda
+Summary.SKIPPED              = Överhoppade
+
+# deck table
+
+DeckTable.NEXT_DECK          = Nästa hög
+DeckTable.NEXT_DECK_DESC     = Visa nästa hög
+DeckTable.PREV_DECK          = Föregående hög
+DeckTable.PREV_DECK_DESC     = Visa föregående hög
+
+# card editting
+
+EditCard.DETAILS_RATIO        = Inlärningskvot
+EditCard.DETAILS_HISTORY     = Inlärningshistorik
+
+EditCard.MODIFIED_WARN       = Detta kortet har ändrats, vill du spara innan du fortsätter?
+EditCard.MODIFIED_WARN_TITLE = Kortet har ändrats.
+
+EditCard.NEXT_CARD         = Nästa kort
+EditCard.NEXT_CARD_DESC    = Visa nästa kort
+
+EditCard.PREV_CARD         = Föregående kort
+EditCard.PREV_CARD_DESC    = Visa föregående kort
+
+EditCard.REMOVE_CARD       = Radera kort
+EditCard.REMOVE_CARD_DESC  = Radera nuvarande kort
+
+EditCard.REMOVE_CARD_WARN  = Är du säker på att du vill radera detta kort?
+EditCard.REMOVE_CARD_WARN_TITLE = Radering av kort
+
+EditCard.RESET_CARD        = Återställ kort
+EditCard.RESET_CARD_DESC   = Återställer statistik för nuvarande kort
+EditCard.RESET_CARD_WARN   = Om detta kort återställs kommer det att flyttas till starthögen, är du säker på att du vill göra detta?
+
+EditCard.TAB_SIDES         = Sidor
+EditCard.TAB_PROPERTIES    = Egenskaper
+
+# find tool
+
+FindTool.FIND          = Sök
+FindTool.BOTH_SIDES    = Båda sidor
+FindTool.MATCH_CASE    = Tag hänsyn till versaler och gemener
+FindTool.RESULTS       = Resultat
+FindTool.SEARCH_TEXT   = Söktext
+FindTool.SETTINGS      = Inställningar
+
+# learn
+
+
+Learn.REMEMBER_THE_ANSWER    = Försök att komma ihåg svaret
+Learn.DID_YOU_KNOW_ANSWER    = Kunde du svaret?
+Learn.YES                    = Ja
+Learn.NO                     = Nej
+
+Learn.CARD_COUNTER           = Korträknare
+Learn.FLIPPED_CARD_SIDES     = Omvända kortsidor
+Learn.SHOW_ANSWER            = Visa svar
+Learn.SHOW_CATEGORY          = Visa kategori
+Learn.SKIP_CARD              = Hoppa över kortet
+Learn.STOP                   = Avsluta inlärning
+Learn.TIMER                  = Timer
+
+Learn.SESSION_RESULTS        = Resultat denna omgång
+Learn.CARD_PROGRESS          = Detta kort:
+Learn.SESSION_PROGRESS       = Denna omgång:
+
+# learn settings
+
+LearnSettings.ADVANCED          = Avancerat
+LearnSettings.SCHEDULING        = Kalender
+
+LearnSettings.CARDS_TO_LEARN    = Kort som skal inläras
+LearnSettings.LEARN_UNLEARNED_EXPIRED = Lär alla utgånga kort samt de som ännu ej lärts in
+LearnSettings.LEARN_UNLEARNED   = Lär endast kort som ännu ej lärts in
+LearnSettings.LEARN_EXPIRED     = Lär endast utgånga kort
+
+LearnSettings.CARDS_ORDER       = Kortens ordningsföljd
+LearnSettings.SHUFFLE_CARDS     = Blanda kort mellan högar och kategorier
+LearnSettings.GROUP_CARDS       = Gruppera kort inom kategorier under inlärning
+LearnSettings.NATURAL_CATEGORY_ORDER = Visa kategorierna i förutbestämd ordningföljd
+LearnSettings.RANDOM_CATEGORY_ORDER = Visa kategorierne i slumpartad ordningsföljd
+
+LearnSettings.DELIMITERS          = Skiljetecken
+LearnSettings.CARD_LIMIT          = Antal kort
+LearnSettings.CARD_LIMIT_TEXT     = Begränsa antalet kort för denna omgång
+LearnSettings.TIME_LIMIT          = Tidsbegränsning (minuter)
+LearnSettings.TIME_LIMIT_TEXT     = Avsluta inlärning efter en viss tid.
+LearnSettings.DONT_RETEST_FAILED  = Återtesta inte kort som missats denna omgång
+
+LearnSettings.SCHEDULE_PRESETS    = Kalenderförval
+LearnSettings.DELAY_AFTER_LEVEL   = Fördröjning efter nivå {0}
+LearnSettings.DAYS                = Dagar
+LearnSettings.HOURS               = Timmar
+LearnSettings.MINUTES             = Minuter
+
+LearnSettings.SIDE_MODE           = Sidindställing
+LearnSettings.NORMAL_MODE         = Normal inlärning.
+LearnSettings.FLIP_MODE           = Inlärning med omvända kortsidor
+LearnSettings.RANDOM_MODE         = Inlärning med slumpartat sidval
+LearnSettings.BOTH_MODE           = Lär varje kort angivet antal gånger
+
+LearnSettings.START         = Börja Inlärningsomgång\!
+LearnSettings.TITLE         = Inlärningsinställningar
+
+# new card
+
+NewCard.ADD                 = Lägg till
+NewCard.ADD_AND_NEXT        = Lägg till och skapa nästa
+
+NewCard.EDIT_RECENTLY       = Redigera senaste
+NewCard.EDIT_RECENTLY_DESC  = Redigera senaste skapade kort
+
+NewCard.NEW_WINDOW          = Nytt fönster
+NewCard.NEW_WINDOW_DESC     = Öppna ett nytt fönster
+
+NewCard.TITLE               = Lägg till kort
+
+NewCard.CLOSE_WARN          = Varning
+NewCardManager.DISMISSED_WARN = Kortdata håller på att raderas. Vill du skapa kortet innan du stänger fönstret?
+
+# status bar
+
+StatusBar.CARDS             = Kort
+StatusBar.EXPIRED           = Utgångna
+StatusBar.LEARNED           = Inlärda
+StatusBar.UNLEARNED         = Icke inlärda
+StatusBar.PARTIAL           = Delvis inlärda
+
+StatusBar.LEARNING_CATEGORY = Kategori
+StatusBar.CARDS_LEFT        = Återstående kort
+
+# strategy
+
+Strategy.LINEAR_DEFAULT_SCHEDULE  = Linjär (Standard)
+Strategy.CONSTANT_SCHEDULE        = Konstant
+Strategy.EXPONENTIAL_SCHEDULE     = Exponentiell
+Strategy.QUADRATIC_SCHEDULE       = Kvadratisk
+Strategy.CRAM_SCHEDULE            = Snabbgenomgång
+Strategy.CUSTOM_SCHEDULE          = Egendefinierad
+
+# time related
+
+Time.DAYS               = dagar
+Time.ONE_DAY            = en dag
+Time.HOURS              = timmar
+Time.ONE_HOUR           = en timme
+Time.MINUTES            = minuter
+Time.ONE_MINUTE         = en minut
+Time.SECONDS            = sekunder
+
+Time.PASSED             = passerat
+
+Time.IN                 = Om {0}
+Time.AGO                = {0} sedan
+
+# learn history
+
+History.ACTION = Visa historik
+History.TITLE = Historik
+History.RECENT = Senaste omgångar
+History.BY_DATE = Omgångar per datum
+History.BY_WEEK = Omgångar per vecka
+History.BY_MONTH = Omgångar per månad
+History.BY_YEAR = Omgångar per år
+History.SESSION_DURATION = Längd på omgång

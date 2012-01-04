@@ -1,0 +1,330 @@
+#
+# This is a translation file for jMemorize (http://www.riad.de/jmemorize)
+#
+# ------------------------------------------------------------------------------
+# Author:             Haakon Meland Eriksen <haakon.eriksen@far.no>
+# Language:           Norwegian (no)
+# jMemorize-Version:  1.2.3
+# ------------------------------------------------------------------------------
+#
+# Notes:
+#   DESC is the text that will show up as tooltip.
+#   TITLE is the title of the new window / dialog.
+
+# general
+
+General.CATEGORY          = Kategori
+General.CREATED           = Opprettet
+General.MODIFIED          = Endret
+General.EXPIRES           = Utgår
+General.LAST_TEST         = Siste prøve
+General.DECK              = Bunke
+General.DECKS             = Bunker
+General.FRONTSIDE         = Forside
+General.FLIPSIDE          = Bakside
+General.OKAY              = Ok
+General.APPLY             = Bruk
+General.CANCEL            = Avbryt
+General.ROOT_CATEGORY     = Alle
+General.GENERAL           = Generell
+General.PASSED            = Bestått
+General.UNLEARNED         = Ikke lært ennå
+General.EXPIRED           = Utgått
+
+General.EMPTY_SIDES_ALERT       = Du må skrive på begge sider av kortet.
+General.EMPTY_SIDES_ALERT_TITLE = Feil på kortsidene
+
+# main frame
+
+MainFrame.ABOUT              = Om
+MainFrame.ABOUT_DESC         = Om dette programmet
+
+MainFrame.ADD_CARD           = Nytt kort
+MainFrame.ADD_CARD_DESC      = Lag nytt kort
+
+MainFrame.ADD_CATEGORY       = Ny kategori
+MainFrame.ADD_CATEGORY_DESC  = Lag ny kategori
+MainFrame.ADD_CATEGORY_INPUT = Skriv navnet på den nye kategorien du vil lage.
+
+MainFrame.CATEGORY_TREE      = Kategoritre
+MainFrame.CATEGORY_TREE_DESC = Vis/skjul kategoritre
+
+MainFrame.COPY               = Kopi
+MainFrame.CUT                = Klipp ut
+MainFrame.PASTE              = Lim inn
+MainFrame.DELETE             = Slett
+
+MainFrame.DELETE_CARDS_WARN       = Du sletter nå {0} kort. Vil du slette?
+MainFrame.DELETE_CARDS_WARN_TITLE = Slett kort
+MainFrame.DELETE_CATEGORY_WARN  = Ved å slette kategorien {0} slettes {1} kort. Vil du slette?
+
+MainFrame.EDIT_CARD             = Endre kort
+MainFrame.EDIT_CARD_DESC        = Endre og vis kortdetaljer
+
+MainFrame.ERROR_TITLE           = Feil
+MainFrame.ERROR_LOAD            = En feil oppstod mens filen {0} ble lest inn.
+MainFrame.ERROR_SAVE            = En feil oppstod mens filen {0} ble lagret. Leksjonen ble ikke lagret.
+
+MainFrame.EXIT                  = Avslutt
+MainFrame.EXIT_DESC             = Avslutt programmet
+
+MainFrame.FILE_FILTER_DESC      = jMemorize-leksjoner
+MainFrame.PDF_FILE_FILTER_DESC	= PDF - Portable Document Format (.pdf)
+
+MainFrame.FIND                  = Finn
+MainFrame.FIND_DESC             = Finn kort
+
+MainFrame.LEARN                 = Lær
+MainFrame.LEARN_DESC            = Start læringsøkten med alle kort som ikke er lært ennå og utgåtte kort
+
+MainFrame.MENU_FILE             = Fil
+MainFrame.MENU_EDIT             = Endre
+MainFrame.MENU_HELP             = Hjelp
+MainFrame.MENU_LESSON           = Leksjon
+
+MainFrame.NEW                   = Ny
+MainFrame.NEW_DESC              = Lag tom leksjon
+
+MainFrame.UNNAMED_LESSON        = Ny leksjon
+
+MainFrame.OPEN                  = Åpne
+MainFrame.OPEN_DESC             = Åpne leksjon
+
+MainFrame.REMOVE_CATEGORY_TITLE = Slett kategori
+MainFrame.REMOVE_DESC           = Slett valgte element(er)
+
+MainFrame.RESET                 = Tilbakestill kort
+MainFrame.RESET_DESC            = Tilbakestill kortstatistikk
+MainFrame.RESET_WARN            = Du tilbakestiller nå {0} kort. Vil du tilbakestille?
+
+MainFrame.SAVE                  = Lagre
+MainFrame.SAVE_DESC             = Lagre leksjon
+MainFrame.SAVE_AS               = Lagre som...
+MainFrame.SAVE_AS_DESC          = Lagre leksjon som...
+MainFrame.SAVE_MODIFIED         = Leksjonen er endret. Vil du lagre endringene før du avslutter?
+
+MainFrame.IMPORT                = Importér
+
+MainFrame.EXPORT                = Eksportér
+MainFrame.EXPORT_PDF            = Portable Document Format (*.pdf)
+MainFrame.EXPORT_RTF            = Rich Text Format (*.rtf)
+MainFrame.EXPORT_PDF_DESC       = Eksportér til *.pdf
+MainFrame.EXPORT_RTF_DESC       = Eksportér til *.rtf
+MainFrame.EXPORT_CLEAN          = Leksjon uten personlige læredata
+
+MainFrame.PREFERENCES           = Innstillinger
+MainFrame.PREFERENCES_DESC      = Sett dine innstillinger
+
+MainFrame.CONFIRM_OVERWRITE_TITLE = Skriv over fil?
+MainFrame.CONFIRM_OVERWRITE = Filen finnes allerede. Vil du skrive over den?
+
+MainFrame.SELECT_CHARACTER_SET  = Vennligst velg tegnsettet til filen.
+MainFrame.CHARACTER_SET         = Tegnsett
+
+# files
+
+File.CSV                     = Kommaseparerte verdier (*.csv)
+File.TSV                     = Tabulatorseparerte verdier (*.tsv)
+
+# web sites
+
+URL.HOMEPAGE                 = Hjemmeside
+URL.MANUAL                   = Brukermanual
+URL.FEATURE_TRACKER          = Ønskeliste
+URL.BUG_TRACKER              = Feilmeldinger
+
+# preferences
+
+Preferences.USE_GZIP            = Bruk GZIP formatet for å bruke mindre plass når leksjonene lagres.
+Preferences.LANGUAGE            = Språk
+Preferences.RESTART             = Språket du valgte vises neste gang du starter programmet.
+
+Preferences.FONT_SETTINGS       = Skrifttype-innstillinger
+Preferences.FONT                = Skrifttype
+Preferences.SIZE                = Størrelse
+Preferences.PREVIEW             = Forhåndsvisning
+
+# card table
+
+CardTable.COLUMNS               = Kolonner
+CardTable.NO_DATE_DESC          = Dette kortet har aldri vært prøvet.
+CardTable.NOT_LEARNED           = Ikke lært
+CardTable.PATH                  = Sti
+CardTable.SELECTED_CARDS        = Valgte kort
+
+# deck chart
+
+DeckChart.CARDS              = Kort
+DeckChart.START_DECK         = Startbunke
+DeckChart.SUMMARY            = Sammendrag
+DeckChart.EXPIRED_CARDS      = Utgåtte kort
+DeckChart.LEARNED_CARDS      = Lærte kort
+DeckChart.UNLEARNED_CARDS    = Ikke lært ennå
+
+Summary.LEARNED              = Lært
+Summary.FAILED               = Feilet
+Summary.RELEARNED            = Lært på nytt
+Summary.SKIPPED              = Skipped
+
+# deck table
+
+DeckTable.NEXT_DECK          = Neste bunke
+DeckTable.NEXT_DECK_DESC     = Vis neste bunke.
+DeckTable.PREV_DECK          = Forrige bunke
+DeckTable.PREV_DECK_DESC     = Vis forrige bunke.
+
+# card editting
+
+EditCard.DETAILS_RATIO       = Suksessrate
+EditCard.DETAILS_HISTORY     = Læringshistorie
+
+EditCard.MODIFIED_WARN       = Kortet er endret. Vil du beholde endringene før du fortsetter?
+EditCard.MODIFIED_WARN_TITLE = Kortet er endret.
+
+EditCard.NEXT_CARD         = Neste kort
+EditCard.NEXT_CARD_DESC    = Vis neste kort
+
+EditCard.PREV_CARD         = Forrige kort
+EditCard.PREV_CARD_DESC    = Vis forrige kort
+
+EditCard.REMOVE_CARD       = Slett kort
+EditCard.REMOVE_CARD_DESC  = Slett dette kortet
+
+EditCard.REMOVE_CARD_WARN  = Er du sikker på at du vil slette dette kortet?
+EditCard.REMOVE_CARD_WARN_TITLE = Slett kort
+
+EditCard.RESET_CARD        = Tilbakestill kort
+EditCard.RESET_CARD_DESC   = Tilbakestiller dette kortet
+EditCard.RESET_CARD_WARN   = Tilbakestilling av dette kortet vil flytte det tilbake til den første bunken.\nVil du flytte det tilbake?
+
+EditCard.TAB_SIDES         = Sider
+EditCard.TAB_PROPERTIES    = Egenskaper
+
+# find tool
+
+FindTool.FIND          = Søk
+FindTool.BOTH_SIDES    = Begge sider
+FindTool.MATCH_CASE    = Treff STOR/liten bokstav
+FindTool.RESULTS       = Resultater
+FindTool.SEARCH_TEXT   = Søketekst
+FindTool.SETTINGS      = Innstillinger
+
+# learn
+
+
+Learn.REMEMBER_THE_ANSWER    = Prøv å huske svaret
+Learn.DID_YOU_KNOW_ANSWER    = Husket du riktig svar?
+Learn.YES                    = Ja
+Learn.NO                     = Nei
+
+Learn.CARD_COUNTER           = Kortteller
+Learn.FLIPPED_CARD_SIDES     = Snudde kortsider
+Learn.SHOW_ANSWER            = Vis svaret
+Learn.SHOW_CATEGORY          = Vis kategori
+Learn.SKIP_CARD              = Hopp over kort
+Learn.STOP                   = Stopp læring
+Learn.TIMER                  = Stoppeklokke
+
+Learn.SESSION_RESULTS        = Øktresultat 
+Learn.CARD_PROGRESS          = Kortframgang
+Learn.SESSION_PROGRESS       = Øktframgang
+
+# learn settings
+
+LearnSettings.ADVANCED          = Avansert
+LearnSettings.SCHEDULING        = Tidsplan
+
+LearnSettings.CARDS_TO_LEARN    = Kort som skal læres
+LearnSettings.LEARN_UNLEARNED_EXPIRED = Lær alle kort som ikke er lært ennå og utgåtte kort
+LearnSettings.LEARN_UNLEARNED   = Lær bare kort som ikke er lært ennå
+LearnSettings.LEARN_EXPIRED     = Lær bare utgåtte kort
+
+LearnSettings.CARDS_ORDER       = Rekkefølge på kortene
+LearnSettings.SHUFFLE_CARDS     = Bland kort fra alle bunker og kategorier.
+LearnSettings.GROUP_CARDS       = Gruppér kort etter kategori under innlæring.
+LearnSettings.NATURAL_CATEGORY_ORDER = Vis kategorier i fast naturlig rekkefølge.
+LearnSettings.RANDOM_CATEGORY_ORDER = Vis kategorier i tilfeldig rekkefølge.
+
+LearnSettings.DELIMITERS          = Grenser
+LearnSettings.CARD_LIMIT          = Kortgrense
+LearnSettings.CARD_LIMIT_TEXT     = Begrens antall kort som skal prøves i denne økten til kortgrensen.
+LearnSettings.TIME_LIMIT          = Tidsgrense
+LearnSettings.TIME_LIMIT_TEXT     = Avslutt økten når en bestemt tidsgrense er nådd.
+LearnSettings.DONT_RETEST_FAILED  = Ikke prøv på nytt kort som ikke ble husket i denne økten.
+
+LearnSettings.SCHEDULE_PRESETS    = Forvalgt tidsintervall
+LearnSettings.DELAY_AFTER_LEVEL   = Vent etter nivå {0}
+LearnSettings.DAYS                = Dag
+LearnSettings.HOURS               = Timer
+LearnSettings.MINUTES             = Minutter
+
+LearnSettings.SIDE_MODE           = Sidemodus
+LearnSettings.NORMAL_MODE         = Lær i normal modus.
+LearnSettings.FLIP_MODE           = Lær med baksiden av kortene.
+LearnSettings.RANDOM_MODE         = Lær i tilfeldig modus med kortsidene snudd tilfeldig.
+LearnSettings.BOTH_MODE           = Lær hver kortside så ofte som angitt.
+
+LearnSettings.START         = Start økt\!
+LearnSettings.TITLE         = Lær innstillinger
+
+# new card
+
+NewCard.ADD                 = Legg til
+NewCard.ADD_AND_NEXT        = Legg til og lag neste
+
+NewCard.EDIT_RECENTLY       = Endre siste
+NewCard.EDIT_RECENTLY_DESC  = Endre siste kort
+
+NewCard.NEW_WINDOW          = Nytt vindu
+NewCard.NEW_WINDOW_DESC     = Åpne et nytt vindu for å legge til kort
+
+NewCard.TITLE               = Lag kort
+
+NewCard.CLOSE_WARN          = Advarsel
+NewCardManager.DISMISSED_WARN = Kortdata forkastes.\nVil du lage kortet før vinduet lukkes?
+
+# status bar
+
+StatusBar.CARDS             = Kort
+StatusBar.EXPIRED           = Utgått
+StatusBar.LEARNED           = Lært
+StatusBar.UNLEARNED         = Ikke lært ennå
+StatusBar.PARTIAL           = Delvis lært
+
+StatusBar.LEARNING_CATEGORY = Læringskategori
+StatusBar.CARDS_LEFT        = Kort som gjenstår
+
+# strategy
+
+Strategy.LINEAR_DEFAULT_SCHEDULE  = Lineær (Standard)
+Strategy.CONSTANT_SCHEDULE        = Konstant
+Strategy.EXPONENTIAL_SCHEDULE     = Eksponensiell
+Strategy.QUADRATIC_SCHEDULE       = Kvadratisk
+Strategy.CRAM_SCHEDULE            = Pugg
+Strategy.CUSTOM_SCHEDULE          = Egendefinert
+
+# time related
+
+Time.DAYS               = dager
+Time.ONE_DAY            = en dag
+Time.HOURS              = timer
+Time.ONE_HOUR           = en time
+Time.MINUTES            = minutter
+Time.ONE_MINUTE         = ett minutt
+Time.SECONDS            = sekunder
+
+Time.PASSED             = brukt
+
+Time.IN                 = i {0}
+Time.AGO                = {0} siden
+
+# learn history
+
+History.TITLE = Historie
+History.ACTION = Vis historie
+History.RECENT = Siste økter
+History.BY_DATE = Økter etter dato
+History.BY_WEEK = Økter etter uke
+History.BY_MONTH = Økter etter måned
+History.BY_YEAR = Økter etter år
+History.SESSION_DURATION = Øktlengde

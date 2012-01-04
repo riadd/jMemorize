@@ -1,0 +1,296 @@
+
+ jMemorize CHANGELOG
+ -------------------
+ 
+   Homepage is http://jmemorize.org
+   Project leader is Riad Djemili (jmemorize at riad de)
+
+ * Release 1.3.0 (3/12/2008)
+   - Feature: Increased image scaling quality
+   - Bugfixes:
+       + GUI problems with Linux/Metal look'n'feel (#1901755)
+       + Removing columns from card table didn't work sometimes (#1897790)
+       + Heap overflow when using many images (#1896990)
+       + Both card side learning mode problems (#1895282)
+       + Images were always scaled down slightly (#1904934)
+       + Unused Images were never deleted from disk when saving lesson in 
+         uncompressed format (#1897124)
+       + Norwegian translation had wrong encoding
+       + Context menu during learning showed wrong entries
+
+ * Release 1.3.0-beta (2/11/2008)
+   - Feature: Image support (#1083803 and #1261445)
+   - Feature: Redesigned card window. 
+       + Added a card side visibility bar to card windows
+       + Added popup menu to card text area
+       + Preserve text formatting when copying and pasting card text
+   - Feature: Extended font options
+       + Added horizontal and vertical alignment
+       + Added separate font settings for learn sessions and 
+         card table (#1744594)
+   - Feature: Extended and reworked learn options
+       + Added option for learning the selected cards, no matter what their
+         current status is (#1726819)
+       + Changed shuffle mode. Learnable (that is unlearned and expired) 
+         cards are now only sorted by their level (and optionally 
+         category) and not anymore also by their time of last appearance. 
+         Additionally a freely choosable percentage of cards can have shuffled
+         deck levels. The exact amount of cards, for which this should happen 
+         can be chosen by a slider inside the learn settings window. (#1694562)
+       + Added support for setting fixed hour and minute for expiration 
+         times (#1699787)
+   - Feature: Extended learn history options
+       + Store learn history in lesson file (instead of keeping in a global
+         file) (#1768041)
+       + Show empty entries in learn history for dates without learn sessions
+       + Made chart labels clearer
+   - Feature: Made charts prettier
+       + Number of shown decks in top stats panel is dependent on window size
+       + Chart fonts keep their size when resizing window, making for much nicer 
+         charts for bigger windows
+   - Feature: Also show a pie chart for the average session when 
+     completing learn session
+   - Feature: Support for copying complete cards to clip board
+   - Feature: Changed keyshort cuts in learn window to make them easier 
+     accessible with one hand. Also show the key on the learn buttons.
+   - Bugfixes:
+       + After a certain program error opening/saving wasn't possible anymore
+       + Certain operations didn't work directly after a finished learn 
+         session (#1801567)
+       + Made category tree navigatable with keyboard again (#1882739)
+       + Sometimes changing the category of a card during a learn session 
+         failed (#1759895)
+   - Translations:
+       + Added Japanese translation (thanks to Eberhard Herzog)
+       + Added Norwegian translation (thanks to Haakon Meland Eriksen)
+       + Added Spanish translation (thanks to René Maya)
+       + Added Chinese translation (thanks to Tianyi Cui)
+       + Updated Polish translation (thanks to Radek Ostrowski)
+       + Updated Dutch translation (thanks to Sander van Rijnswou)
+
+ * Release 1.2.3 (7/22/2007)
+   - Feature: Sort categories alphabetically
+   - Feature: Added shortcuts for text formatting
+   - Feature: Added popup menu to category tree
+   - Feature: Allow to remove text while having SHIFT pressed (#1707703)
+   - Misc: Updated various translations
+   - Misc: Moving/copying of cards is now a lot faster
+   - Misc: Made lesson loading/saving more robust
+   - Misc: Added logging functionality for debug purposes [by Bret5]
+   - Bugfix: Fixed copying of cards (#1721127)
+   - Bugfix: Fixed unusable learn dialog if too large category names
+   - Translation: Added Polish translation [thanks to Tomek Pedzimaz]
+   - Translation: Added Swedish translation [thanks to Magnus Bodin]
+
+ * Release 1.2.2 (3/3/2007)
+   - Bugfix: Fixed exporting to PDF and RTF
+   
+ * Release 1.2.1 (3/2/2007)
+   - Bugfix: Fixed file-saving issues on certain systems
+
+ * Release 1.2.0 (3/1/2007)
+   - Feature: Added text formatting (bold, italic, underline, subsection, 
+     supersection) for card sides
+   - Feature: Show collapsible card properties on top of card window
+   - Feature: Allow to change card category from edit window
+   - Feature: Reworked card limit behavior in learn sessions to learn only 
+     subsets of cards [by Bret5]
+   - Feature: Show progress of current card in learn sessions [by Bret5]
+   - Feature: Added session history stats (menu -> lesson -> 
+     show session history)
+   - Feature: Show full path in category combo box
+   - Feature: Store modification date for every card
+   - Feature: Added a button for showing/hiding the deck stats
+   - Feature: Don't show cards as failed in session summary that were unlearned 
+     at the beginning of the session
+   - Feature: Various visual improvements (cleaned up main window from clutter,
+     tweaked colors, added row highlights to card tables, etc.)     
+   - Feature: Support for Java 1.6
+   - Bugfix: Don't break lesson files when something goes wrong while saving
+   - Bugfix: Don't close program if error occurred while saving
+   - Bugfix: Learn buttons used to react to key short cuts even when 
+     not visible
+   - Bugfix: Deleted cards were not removed from the list of recently 
+     created cards
+
+ * Release 1.1.0 (12/14/2006)
+   - Feature: Show a summarizing pie chart after every learn session
+   - Feature: Extended import functionaly
+       + Import to current lesson
+       + Import .jml files
+       + Show charset chooser when importing CSV/TSV files
+   - Feature: Don't auto-resize columns widths in card table
+   - Feature: Restore card table size at start
+   - Feature: Restore find window position and size at start
+   - Feature: Added URL short cuts to help menu
+   - Feature: Highlight search text in text field so that old text will 
+     automatically get replaced by new text
+   - Feature: Reworked decks chart
+       + Show learned cards on top instead of bottom
+       + Removed redundant decks label
+       + Added transparency to bars
+   - Bugfix: Enable ESC key in card table of search window
+   - Bugfix: Use correct menu shortcut key on Mac [by Eike Preuss]
+   - Bugfix: Don't start search automatically when search text is selected 
+     from history
+
+ * Release 1.0.0 (11/6/2006)
+   - Bugfix: Allow to set custom learn schedule again
+   - Bugfix: Improved root category handling in CSV files (bug 1587691)
+
+ * Release 1.0rc2 (10/27/2006)
+   - Added importing and exporting of CSV (character separated values) files
+   - Added a new error dialog which shows a lot more information about the exact 
+     cause of a failure
+   - Restore position of all windows on program start
+   - Added a new about dialog which shows the license, Java properties and raw 
+     preference data
+   - Don't silently overwrite files (feature 1564788) [by elsapo]
+   - For recent files menu items show full file name as tooltip
+   - Remember last directory that was used to load and save (feature 1560733)
+   - Always reset scroll positions of card sides (feature 1557626)
+   - Added another preset learn schedule for intensive last-minute learning 
+     (feature 1250342)
+   - Fixed start-up problem with certain Linux installations
+   - Correctly remember amount to test amount in learn settings (bug 1562146)
+   - Made context menu behave more natural (bug 1519575) [by mezeg001]
+   - Made preferences and learn settings truly modal (bug 1562122)
+   - Fixed learn button which wasn't enabled on new lessons and after creating 
+     some cards (bug 1563105)
+
+ * Release 1.0rc1 (05/11/2006)
+   - Added font customization for front and flip side
+   - Added a installer for windows [by Clem <labs@beffa.org>]
+   - Added PDF/RTF exporting [by Jan Stamer <jan.stamer@freenet.de>]
+   - Added Export-to-clean-Lesson, which saves the lesson without any progress
+     data
+   - Added a new sides modes which allows to learn both card sides a specific 
+     amount of times [with berrinam <berrinam@users.sourceforge.net>]
+   - Fixed look of stacked bar chart panel on higher screen resolutions
+   - Highlight currently selected deck in stacked bar chart
+   - Save sorting column and direction for tables
+   - Show/hide category tree state is saved when exiting [by Jan Stamer]
+   - Added table column for pass/fail ratio of cards
+   - Added context menus to card tables
+   - Added Dutch translation [by Filip Tack <ftack@yahoo.com>]
+   - Added French translation [by MILLE.ca]
+   - Several other minor improvments
+
+ * Release 0.9.2 (01/03/2006)
+   - Fixed typo in english translation.
+   - Added Danish translation [by Adam Ehlers Nyholm Thomsen 
+     <adament at gmail com>]
+
+ * Release 0.9.2rc2 (11/14/2005)
+   - Customized font is now also used in the card table
+   - Added keybord shortcuts for learning [by Adam Ehlers Nyholm Thomsen]
+     + 'a' shows the answer
+     + 's' and 'v' skip the current card
+     + 'y' chooses yes
+     + 'n' chooses no
+   - Changed tab handling on text areas
+     + TAB/SHIFT+TAB now focuses next/previous text area
+     + CTRL+TAB inserts tabs
+   - Fixed some bugs in the German translation and added..
+     + Esperanto [by Kristjan Schmidt <Kristjan@yandex.ru>]
+     + Turkish [by Ali Baser <alibaser_marmara@yahoo.com>]
+   - Fixed several bugs in regards to fonts..
+     + Fixed small artifacts that could appear when changing between cards in 
+       the Edit Card window
+     + Fixed forgetting of customized card fonts
+     + Fixed card font not used for frontside while learning
+     + Fixed selecting a new card font was ignored by the Edit Card window
+
+ * Release 0.9.2rc1 (10/7/2005)
+   - Added font customization.
+   - Added support for translations. This version supports..
+     + English
+     + German
+   - Added support for saving lessons without GZIP and also for loading
+     uncompressed lesson files.
+   - Added icons to most windows.
+   - Fixed very large question side panels which would show up without 
+     necessary scrolling bars while learning. [bug#1220156]
+
+ * Release 0.9.1 (6/1/2005)
+   - Added a learn session customization option that shuffles all cards in the
+     same deck and category (the later only when 'group by category' is 
+     activated) [with help of Adam Ehlers Nyholm Thomsen]
+   - jMemorize will now open up lessons that are given as first command line 
+     argument.
+   - Fixed a critical bug that caused wrong expiration dates under certain learn 
+     schedules and higher deck levels.
+
+ * Release 0.9 (4/6/2005)
+   - Starting a learn session now brings up a customization window which 
+     enables you to set various settings.
+     + Choose from which categories you want to learn cards
+     + Choose if you only want to learn new cards, learn only expired cards or 
+       learn all new and expired cards at once.
+     + Limit sessions by time and/or card number
+     + Learn cards in flipped or randomly flipped card sides mode
+       (especially usefully when learning vocabulary)
+     + Select your day to day schedule from various presets or enter your
+       own custom schedule
+     + Group cards by categories and show them in fixed or random order
+   - Added a text field that also shows current category and deck while 
+     learning. This can be enabled and disabled by clicking on the checkbox.
+   - Added status bars to the Main window and the Find tool 
+   - Added a toolbar to Add card window which enables you to quickly access 
+     often used actions.
+     + Browse recently created cards by clicking "Edit Recently"
+     + Open another add-card window
+   - Clicking on Edit while learning now allows you to browse through all
+     cards that have appeared until now in this learn session
+   - Added a skip button which enables you to skip the current card whitout 
+     having it marked as failed or correctly known
+   - The last time a card was tested is now the time the learn session started
+   - Disabled ability to create empty cards
+   - Complete redesigns and visual improvments to learn panel, card panels
+     and find tool   
+   - Also several bug fixes and many more minor improvments
+
+ * Release 0.8.1 (11/29/2004)
+   - Changed learn strategy to not show failed cards immediatly again.
+   - Fixed bug that prevented to edit cards while learning.
+   - Changed shortcut keys.
+ 
+ * Release 0.8 (11/24/2004)
+   - Added a search window, which allows to search for texts and displays 
+     the search results in a separate table.
+   - Added ability to customize visible table columns by right clicking on 
+     the table header and choosing from the popup menu. Chosen columns are
+     restored at application start.
+   - Redesigned a lot of windows to make use of the jGoodies Forms library.
+     (http://www.jgoodies.com/freeware/forms/)
+   - Changed card-edit window behaviour. When browsing files with the 
+     card-edit window, cards are no more saved by default. Instead a 
+     confirmation dialog is opened. Also added a "apply" button for this 
+     reason.
+   - Added several confirmation dialogs that show up when dismissing 
+     changes or applying operations, i.e. when closing the lesson file or
+     removing files.
+   - Deleting a card from edit-card window makes it show next card instead
+     of closing the window.
+   - Resetting a card from edit-card window doesn't close window any more.
+   - Allowed to open more then one card creation window at once.
+   - Added a category combo box to "new card" window.
+   - Added ability to close Card creation- and card edit-windows by ESC key.     
+   - Changed category "Column" to only show category name.
+   - Added a "Path" column that shows the category path.
+   - Added a "Created" column that shows the creation date.   
+   - Changed table tooltips to work only on specific columns. Hovering on
+     dates now shows the time in a time span notation. Hovering on a
+     category name shows its full path.
+   - Added Application name and version to window title.
+   - Made category tree side panel snap to old size when being restored.
+ 
+ * Release 0.7.1 (10/26/2004)
+   - Added support for Java 1.4.
+   - New state icons contributed by Magnus Hildebrandt 
+     (magnus[at]bottledfish.de)
+   - Added recent files menu items.
+   - Last table column widths are restored when starting application.
+ 
+ * Release 0.7 (10/22/2004)
+   - First official release. 
