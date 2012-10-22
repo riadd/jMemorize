@@ -548,13 +548,16 @@ public class Main extends Observable implements LearnSessionProvider,
     public static void main(String args[])
     {
         File file = null;
-        if (args.length >= 1) {
+        if (args.length >= 1)
+        {
            file = new File(args[0]);
         }
-        else if (Main.getInstance().getRecentLessonFiles().size() >= 1) {
+        else if (Main.getInstance().getRecentLessonFiles().size() >= 1)
+        {
            String filename = Main.getInstance().getRecentLessonFiles().get(0);
            file = new File(filename);
-           if (!file.exists()) {
+           if (!file.exists())
+           {
               file = null;
            }
         }
