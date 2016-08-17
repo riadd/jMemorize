@@ -150,7 +150,7 @@ public class CardSidePanel extends JPanel
             
             g.drawImage(m_image, 
                 left, top, left + w - 2*padding, top + h - 2*padding, 
-                0, 0, imgWidth, imgHeight, null);
+                0, 0, imgWidth, imgHeight, this);
         }
     }
     
